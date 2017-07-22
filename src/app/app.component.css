@@ -1,0 +1,66 @@
+.title img {
+  margin-bottom: 40px;
+  width: 120px;
+}
+
+.container-box {
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 4px;
+  padding: 20px;
+  color: #2B354E;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06)
+}
+
+.container-box input {
+  padding: 15px;
+  border: 0px;
+  border-bottom: 1px solid #F0F0F0;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.container-box input:focus {
+  border-bottom: 3px solid #90E692;
+}
+
+.container-box button.add-button {
+  width: 70px;
+  height: 70px;
+  font-size: 18px;
+  background-color: #90E692;
+  border-radius: 35px;
+  position: absolute;
+  right: -35px;
+  top: -35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06)
+}
+
+.container-box button.add-button:active {
+  background-color: #79c67a;
+}
+
+.container-box .list-items {
+  height: 400px;
+  overflow: auto;
+}
+
+.container-box .item {
+  padding: 20px 15px;
+  border-bottom: 1px solid #F0F0F0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container-box .item:active {
+  background-color: #F0F0F0;
+}
+
+.container-box .list-empty {
+  font-size: 20px;
+  color: #CCCCCC;
+  text-align: center;
+}

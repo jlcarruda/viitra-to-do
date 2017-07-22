@@ -1,0 +1,40 @@
+<div class="uk-grid uk-container-center uk-grid-collapse uk-width-4-5 uk-flex uk-flex-middle height-100">
+    
+  <div class="uk-width-1-1">
+    
+    <!-- Viitra's logo -->
+    <div class="title uk-width-1-1"> 
+      <img src="/assets/images/logo-viitra.svg">
+    </div> 
+
+    <div class="container-box uk-width-1-1">
+
+      <!-- Add button -->
+      <button class="add-button uk-button uk-width-1-1">
+        <i class="uk-icon-plus"></i>
+      </button>
+      
+      <!-- Add container -->
+      <div class="uk-grid">
+        <div class="uk-width-1-1"> 
+            <input type="text" class="uk-width-1-1" />
+        </div> 
+      </div>
+
+      <!-- List Items -->
+      <div class="uk-grid uk-grid-collapse">
+        <div class="list-empty uk-width-1-1" *ngIf="items?.length === 0">
+          List is empty
+        </div>
+        <div class="list-items uk-width-1-1">
+          <div class="item uk-width-1-1" *ngFor="let item of items; let i = index;">
+            Item {{ i }}
+          </div>
+        </div>
+      </div> 
+
+    </div>
+
+  </div>
+
+</div>
