@@ -1,4 +1,4 @@
-# Viitra To Do
+<img src="http://viitra.com/img/logo-viitra.svg" width="95">
 Este projeto é parte de um modelo de avaliação e recrutamento de desenvolvedores web para a `@viitra`. Sendo assim, o software em questão não será utilizado pela mesma para fins lucrativos.
 
 ## Avaliação
