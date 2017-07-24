@@ -29,7 +29,7 @@ Estas features podem ser implementadas e serão avaliadas como pontuação extra
 - Não é permitido sobre qualquer hipótese consultar outras pessoas
 - Não é permitido sobre qualquer hipótese consultar códigos prontos
 - O candidato poderá adicionar novos elementos visuais e funcionais que possa contribuir para aumentar a sua pontuação
-- É permitido altenar sobre framework CSS/HTML, por padrão o [UIKit](https://getuikit.com/v2/) foi utilizado para a construção da apicação base
+- É permitido altenar sobre framework CSS/HTML, por padrão o [UIKit](https://getuikit.com/v2/) foi utilizado para a construção da aplicação base
 - Hora de início e término da prova prática será determinada pelos entrevistadores no momento da entrevista
 
 ## Ambiente
